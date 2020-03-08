@@ -1,0 +1,47 @@
+username - 
+email - 
+password - 
+
+
+
+step 1: Git download
+step 2: Git installation
+step 3: Git Acccount Creation
+step 4: Git repository
+step 5: A file to upload on github
+step 6: Git command line
+
+cd path - Go to Directory
+
+First time (New repository)
+			git init
+			git add
+			git config -- global user.email "useremail"
+			git config -- global user.name "username"
+
+			git commit -m "first commit"
+			git remote add origin https://github.com/brainseeddeveloper/sample.git
+			git push - u origin master
+
+
+(New repository for new project)
+			git init
+			git add
+
+			git commit -m "first commit"
+			git remote add origin https://github.com/brainseeddeveloper/sample.git
+			git push - u origin master		
+
+(Old repository for existing project)
+			
+			git add	
+			git commit -m "second commit"
+			git push
+
+(Existing project to other laptop)
+ 
+ 			git pull
+
+(Other person project to other laptop)
+
+git clone https://github.com/brainseeddeveloper/sample.git
